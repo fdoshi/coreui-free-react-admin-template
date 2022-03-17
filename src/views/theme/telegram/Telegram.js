@@ -47,45 +47,21 @@ ThemeColor.propTypes = {
   className: PropTypes.string,
 }
 
-const Colors = () => {
+const Telegram = () => {
   return (
     <>
       <CCard className="mb-4">
         <CCardHeader>
-          Theme colors
+          Send Notification on Telegram
           <DocsLink href="https://coreui.io/docs/utilities/colors/" />
         </CCardHeader>
         <CCardBody>
-          <CRow>
-            <ThemeColor className="bg-primary">
-              <h6>Brand Primary Color</h6>
-            </ThemeColor>
-            <ThemeColor className="bg-secondary">
-              <h6>Brand Secondary Color</h6>
-            </ThemeColor>
-            <ThemeColor className="bg-success">
-              <h6>Brand Success Color</h6>
-            </ThemeColor>
-            <ThemeColor className="bg-danger">
-              <h6>Brand Danger Color</h6>
-            </ThemeColor>
-            <ThemeColor className="bg-warning">
-              <h6>Brand Warning Color</h6>
-            </ThemeColor>
-            <ThemeColor className="bg-info">
-              <h6>Brand Info Color</h6>
-            </ThemeColor>
-            <ThemeColor className="bg-light">
-              <h6>Brand Light Color</h6>
-            </ThemeColor>
-            <ThemeColor className="bg-dark">
-              <h6>Brand Dark Color</h6>
-            </ThemeColor>
-          </CRow>
+          <p>Add Message Form Here</p>
+          <button>Send Button</button>
         </CCardBody>
       </CCard>
     </>
   )
 }
 
-export default Colors
+export default Telegram
